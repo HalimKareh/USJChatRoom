@@ -1,0 +1,96 @@
+/*Basic Styles*/
+
+
+
+body{
+  background:url('../Img/background.png');
+  color:#fff;
+  font-weight:100;
+  font-size:13px;
+  font-family:'Raleway',sans-serif;
+  position: absolute;
+  padding: 3%;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  overflow-y:scroll;
+}
+
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: font-size 0.1s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.1s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.1s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.1s ease, background-color 0.3s ease;
+  transition: font-size 0.1s ease, background-color 0.3s ease;
+}
+textarea{
+	border-radius: 8px;
+	resize: none;
+	width: 870px;
+	height: 220px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+}
+#zone2{
+  width: inherit;
+  border-style:solid;
+  border-width:2px;
+  height:14%;
+}
+
+#zone5{
+	max-height:150px;
+}
+
+#zone6{
+	border-style:solid;
+	border-width:2px;
+	
+}
+
+#message_body{
+	height:150px;
+	width:80%;
+
+}
+
+#msg_comp{
+	height:30px;
+	width:90%;
+}
+
+#list_and_mail_zone{
+float:right;
+  top: 110px;
+  width: 30%;
+  max-height: inherit;
+}
+
+
+#group_chat_zone{
+  float: left;
+  width: 60%;
+}
