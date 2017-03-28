@@ -1,6 +1,5 @@
 
 /*--------------------------------------------------------------------------------------------
-Marc Hanna
 Halim Kareh
 ---------------------------------------------------------------------------------------------*/
 
@@ -11,7 +10,7 @@ var email;
 var auth_key='UzIyQTgwRjc2NjpzY3JpcHRyOjFFOTg4NURCREY5MjA5RjY4OUQ5Mzk5OTc4MUNDNkQ3';
 
 /*--------------------------------------------------------------------------------------------
-API 1 - Rejoindre le group (Elle renvois un jetton de confirmation, une fois le jetton reçu, le user est dans le group)
+API 1 - Rejoindre le group (Elle renvois un jetton de confirmation, une fois le jetton reÃ§u, le user est dans le group)
 ---------------------------------------------------------------------------------------------*/
 function joinChat(){
 	username = document.getElementById("username").value;
